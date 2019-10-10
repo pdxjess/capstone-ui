@@ -13,6 +13,7 @@ function Header(){
           <li><Link to="/userflow">User Flow</Link></li>
           <li><Link to="/wireframe">Wireframing</Link></li>
           <li><Link to="/moodboard">Mood Board</Link></li>
+          <li><Link to="/styleguide">Style Guide</Link></li>
           <li><Link to="/prototype">Prototype</Link></li>
         </ul>
       </div>

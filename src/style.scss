@@ -64,29 +64,11 @@ body {
     text-align: left;
 }
 
-
-.beer-box {
-  margin: 60px;
-  display: flow-root;
-  padding: 0px;
-  // background-color: rgba(144, 144, 144, 0.75);
-  background-color: black;
-  color: black;
-  border-radius: 10px;
-}
-
 .header-tag {
   color: black;
   font-family: 'Tajawal', sans-serif;
   letter-spacing: 1px;
   font-weight: 400;
-}
-
-.beer-box h3 {
-  text-align: center;
-  color: black;
-  font-size: 50px;
-  font-family: 'Abril Fatface', cursive;
 }
 
 .grid-container {
@@ -116,6 +98,7 @@ body {
   position: absolute;
   top: 70px;
   right: 300px;
+  padding-top: 50px;
 }
 
 .research {
@@ -162,6 +145,14 @@ body {
 }
 
 .personas {
+  width: 1400px;
+  position: absolute;
+  top: 70px;
+  right: 300px;
+  padding-bottom: 20px;
+}
+
+.styleguide {
   width: 1400px;
   position: absolute;
   top: 70px;
