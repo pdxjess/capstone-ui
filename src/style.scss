@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Tajawal:400,900&display=swap');
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-top h1 {
+  color: black ;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 2px;
+}
+
+.header-top h2 {
+  color: black;
+  font-size: 18px;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 1rem;
+  right: 3.5rem;
+}
+
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  color: black;
+  text-transform: uppercase;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.nav-bar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar li:hover {
+  border-bottom: 3px solid black;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+
+    &__image {
+        width: 100px;
+        height: auto;
+    }
+}
+
+.left {
+    text-align: left;
+}
+
+
+.beer-box {
+  margin: 60px;
+  display: flow-root;
+  padding: 0px;
+  // background-color: rgba(144, 144, 144, 0.75);
+  background-color: black;
+  color: black;
+  border-radius: 10px;
+}
+
+.header-tag {
+  color: black;
+  font-family: 'Tajawal', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.beer-box h3 {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 25px;
+  list-style: none;
+  letter-spacing: 2px;
+  font-family: 'Tajawal', sans-serif;
+
+  .list_name {
+    text-transform: uppercase;
+  }
+}
+
+.finalDesign {
+  margin-top: 60px;
+  text-align: left;
+  padding-left: 90px;
+}
+
+.moodboard {
+  width: 1200px;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+
+.research {
+  width: 1200px;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+
+.userflow {
+  width: 1200px;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+
+.prototype {
+  width: 1200px;
+  position: absolute;
+  top: 120px;
+  right: 70px;
+  padding-bottom: 20px;
+}
+
+.wireframe {
+  width: 1200px;
+  position: absolute;
+  top: 90px;
+  right: 70px;
+}
+
+.overview {
+  width: 1400px;
+  position: absolute;
+  top: 70px;
+  right: 300px;
+}
+
+.personas {
+  width: 1200px;
+  position: absolute;
+  top: 70px;
+  right: 70px;
+}
