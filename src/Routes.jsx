@@ -8,6 +8,8 @@ import Wireframe from './Wireframe';
 import Moodboard from './Moodboard';
 import Userflow from './Userflow';
 import Styleguide from './Styleguide';
+import Objectives from './Objectives';
+import UserStories from './Userstories';
 import { Route, Switch } from 'react-router-dom';
 
 const Routes = () => (
@@ -18,9 +20,11 @@ const Routes = () => (
     <Route exact path="/personas" component={Personas} />
     <Route exact path="/moodboard" component={Moodboard} />
     <Route exact path="/prototype" component={Prototype} />
+    <Route exact path="/userstories" component={UserStories} />
     <Route exact path="/wireframe" component={Wireframe} />
     <Route exact path="/userflow" component={Userflow} />
     <Route exact path="/styleguide" component={Styleguide} />
+    <Route exact path="/objectives" component={Objectives} />
 
 
   </Switch>
