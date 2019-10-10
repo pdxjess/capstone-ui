@@ -20,6 +20,7 @@ _I wanted to make this site feel like a real world application that you would us
 * To deploy project: Install NPM
 * Run npm start in terminal
 * Go to localhost:3000 in your internet browser
+* To interact with prototype please click here: [Airpass](https://www.figma.com/proto/oQNri5uuEUHonnyYIAeikT/AirPass?scaling=scale-down&node-id=1%3A2)
 
 ## Known Bugs
 
